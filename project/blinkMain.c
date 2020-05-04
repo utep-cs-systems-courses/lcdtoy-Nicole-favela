@@ -15,7 +15,7 @@ int main(void) {
   u_char width = screenWidth, height = screenHeight;
   enableWDTInterrupts();	/* enable periodic interrupt */
   clearScreen(COLOR_BLUE);//makes blue background color
-
+  drawString8x12(5,8,"hello",COLOR_WHITE,COLOR_RED);
   or_sr(0x18);		/* CPU off, GIE on */
 }
 //draws hexagon in white
