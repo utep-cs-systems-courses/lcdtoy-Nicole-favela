@@ -1,6 +1,7 @@
 Intro:
 This lcd toy makes hexagons of different sizes, plays sounds, and lights in
-response to button presses.
+response to button presses.It also displays the text "hello" on a red
+background. 
 
 button1: blinks red constantly, cycles through tones, draws small hexagon in white
 button2: turns led green light on, stops any tones made by other buttons
